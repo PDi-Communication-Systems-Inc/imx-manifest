@@ -11,12 +11,16 @@
            fetch="https://github.com/nxp/"
            review="" />
 
+  <remote  name="bcmcom"
+           fetch="https://github.com/bcmadvancedresearch/"
+           review="" />
+
   <!--> imx-firmware needs to be fetched from git.freescale.com as it is proprietary <-->
   <project path="vendor/nxp/imx-firmware" name="imx-firmware" remote="imx-proprietary" revision="87ba304b9efbb2e8dbdd54af4c087584fb259535" />
 
   <!-- For imx public git. -->
-  <project path="vendor/nxp-opensource/kernel_imx" name="linux-imx" remote="android-imx" revision="refs/tags/o8.0.0_1.0.0-ga" />
-  <project path="vendor/nxp-opensource/uboot-imx" name="uboot-imx" remote="android-imx" revision="refs/tags/o8.0.0_1.0.0-ga" />
+  <project path="vendor/nxp-opensource/kernel_imx" name="linux-imx6" remote="bcmcom" revision="o8.0.0_4.9.17_bcm" />
+  <project path="vendor/nxp-opensource/uboot-imx" name="u-boot-imx" remote="bcmcom" revision="imx_v2017.03_4.9.88_2.0.0_ga-bcm" />
   <project path="vendor/nxp-opensource/imx-lib" name="imx-lib" remote="android-imx" revision="refs/tags/o8.0.0_1.0.0-ga" />
 
   <project path="device/fsl" name="android-imx/device/fsl" remote="android-imx" revision="refs/tags/o8.0.0_1.0.0-ga" />
