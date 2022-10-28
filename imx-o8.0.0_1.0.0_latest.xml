@@ -31,12 +31,12 @@
   <project path="device/bcm" name="oreo-device-bcm" remote="pdi" revision="o8.0.0_1.0.0_bcm" />
 
   <!-- imx private git. -->
-  <project path="vendor/nxp/fsl-codec" name="fsl-codec" remote="pdi" revision="master" />
-  <project path="vendor/nxp/fsl_imx_omx" name="fsl_imx_omx" remote="pdi" revision="master" />
-  <project path="vendor/nxp/fsl-proprietary" name="fsl-proprietary" remote="pdi" revision="master" />
-  <project path="vendor/nxp/imx-g2d-pxp" name="imx-g2d-pxp" remote="pdi" revision="master" />
-  <project path="vendor/nxp/imx-vpu-cnm" name="imx-vpu-cnm" remote="pdi" revision="master" />
-  <project path="vendor/nxp/linux-firmware-imx" name="linux-firmware-imx" remote="pdi" revision="master" />
+  <project path="vendor/nxp/fsl-codec" name="oreo-fsl-codec" remote="pdi" revision="master" />
+  <project path="vendor/nxp/fsl_imx_omx" name="oreo-fsl_imx_omx" remote="pdi" revision="master" />
+  <project path="vendor/nxp/fsl-proprietary" name="oreo-fsl-proprietary" remote="pdi" revision="master" />
+  <project path="vendor/nxp/imx-g2d-pxp" name="oreo-imx-g2d-pxp" remote="pdi" revision="master" />
+  <project path="vendor/nxp/imx-vpu-cnm" name="oreo-imx-vpu-cnm" remote="pdi" revision="master" />
+  <project path="vendor/nxp/linux-firmware-imx" name="oreo-linux-firmware-imx" remote="pdi" revision="master" />
 
   <project path="vendor/nxp-opensource/imx" name="android-imx/platform/hardware/imx" remote="android-imx" revision="refs/tags/o8.0.0_1.0.0-ga" />
   <project path="vendor/nxp-opensource/fsl_imx_demo" name="android-imx/platform/packages/apps/fsl_imx_demo" remote="android-imx" revision="refs/tags/o8.0.0_1.0.0-ga" />
