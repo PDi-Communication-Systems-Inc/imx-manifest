@@ -27,7 +27,7 @@
   <project path="vendor/nxp-opensource/uboot-imx" name="u-boot-imx" remote="bcmcom" revision="9c40e8fcbbf6895c1ad1bc2026a019594da0001a" />
   <project path="vendor/nxp-opensource/imx-lib" name="imx-lib" remote="android-imx" revision="refs/tags/o8.0.0_1.0.0-ga" />
 
-  <project path="device/fsl" name="android-imx/device/fsl" remote="android-imx" revision="refs/tags/o8.0.0_1.0.0-ga" />
+  <project path="device/fsl" name="oreo-device-fsl" remote="pdi" revision="o8.0.0_1.0.0-ga" />
   <project path="device/bcm" name="oreo-device-bcm" remote="pdi" revision="o8.0.0_1.0.0_bcm" />
 
   <!-- imx private git. -->
@@ -75,5 +75,10 @@
   <project path="system/core" name="aosp/platform/system/core" groups="pdk" remote="android-imx" revision="refs/tags/o8.0.0_1.0.0-ga" />
   <project path="system/extras" name="aosp/platform/system/extras" groups="pdk" remote="android-imx" revision="refs/tags/o8.0.0_1.0.0-ga" />
   <project path="system/tools/bpt" name="aosp/platform/system/tools/bpt" groups="pdk" remote="android-imx" revision="refs/tags/o8.0.0_1.0.0-ga"/>
+
+  <!--> PDI replace AOSP repos <-->
+  <remove-project name="platform/frameworks/opt/net/ethernet" />
+  <project path="frameworks/opt/net/ethernet" name="oreo-platform-frameworks-opt-net-ethernet" groups="pdk-fs" remote="pdi" revision="o8.0.0_1.0.0_pdi" />
+
 
 </manifest>
