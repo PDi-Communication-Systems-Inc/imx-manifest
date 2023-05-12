@@ -80,5 +80,7 @@
   <remove-project name="platform/frameworks/opt/net/ethernet" />
   <project path="frameworks/opt/net/ethernet" name="oreo-platform-frameworks-opt-net-ethernet" groups="pdk-fs" remote="pdi" revision="o8.0.0_1.0.0_pdi" />
 
+  <!--> PDI packages <-->
+  <project path="external/iperf3" name="iperf3" groups="pdk" remote="pdi" revision="master" />
 
 </manifest>
